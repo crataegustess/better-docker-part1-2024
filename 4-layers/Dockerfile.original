@@ -10,7 +10,7 @@ RUN rm /var/cache/apk/*
 
 RUN apk -U upgrade
 
-RUN npm i -g npm@9
+RUN npm i -g npm@10
 
 RUN npm install -g serverless@3
 
