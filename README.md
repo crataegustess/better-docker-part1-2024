@@ -35,3 +35,5 @@ docker run --name exercise2 --rm docker-deep-dive/ex2/original
 ```
 
 However, different types of dockerfile & image may prompt more complex versions (spoilers!)
+
+If you are running Podman or another docker equivalent, you might want to alias your `podman` command as `docker` and consider prefixing your docker image paths with `localhost/` when running or calling for history.

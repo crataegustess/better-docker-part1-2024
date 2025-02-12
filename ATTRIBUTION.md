@@ -1,3 +1,1 @@
-Tess Barnes 
-tess@tessbarnes.uk
-2024
+Tess Barnes tess@tessbarnes.uk 2024, 2025

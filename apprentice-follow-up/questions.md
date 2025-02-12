@@ -10,7 +10,8 @@ Answer these after a day or two to see how much you remember
 1. What principles can we apply to speed up builds of an image in a pipeline?
 1. What are examples of artefacts, files or values we would not want to have baked into a shipped image used in production and why?
 1. What principles can we apply to avoid this?
-1. Which exercise had the biggest impact on the image quality and why?
+2. What do we need to think about when connecting to a private package repository?
+3. Which exercise had the biggest impact on the image quality and why?
 
 ## Part 2
 Answer these after some reflection on your delivery

@@ -2,7 +2,7 @@ ARG NODE_VERSION=22
 
 FROM node:${NODE_VERSION}-alpine
 
-ENV NODE_ENV=production
+ENV NODE_ENV production
 
 WORKDIR /usr/src/app
 
@@ -15,4 +15,6 @@ RUN npm ci --omit=dev
 
 COPY . .
 
-CMD node src/index.js
+EXPOSE 3000
+
+CMD node index.js
