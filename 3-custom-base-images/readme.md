@@ -15,7 +15,7 @@ Building these layers every time you change your project (even if they are cache
 
 Build common things separately! And only on one cadence (not once per project)
 
-NB In a business context this would probably involve a private conatiner image registry such as aws ECR or github packages. For this exercise, your own machine will supply the custom image
+NB In a business context this would probably involve a private container image registry such as aws ECR or github packages. For this exercise, your own machine will supply the custom image
 
 ## Exercise
 

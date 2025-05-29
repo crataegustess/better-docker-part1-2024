@@ -19,7 +19,8 @@ The number of instructions also matters, more instructions = more layers = bigge
 - Change the Rakefile to add a blank line
 - Build the original dockerfile, record how many layers are pulled from cache
 
-- Clear your docker build cache: `docker builder prune -a` (confirm with `y`)
+- Clear your docker build cache: `docker builder prune -a` (confirm with `y`).
+  - If you are using Podman rather than Docker Desktop or Rancher Desktop be aware of this [cache clearing](https://github.com/containers/podman/issues/19604) issue
 
 - Create a better version of the docker file that considers which order layers should be in
 - Build that and record the number of layers
