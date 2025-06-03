@@ -29,18 +29,14 @@ updates:
   # Enable version updates for Docker
   - package-ecosystem: "docker"
     # Look for a `Dockerfile` in the `root` directory
-    directory: "/"
-    schedule:
-      interval: "monthly"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
-
-  # Enable version updates for GitHub Actions
-  - package-ecosystem: "github-actions"
-    # Workflow files stored in the default location of `.github/workflows`
-    # You don't need to specify `/.github/workflows` for `directory`. You can use `directory: "/"`.
-    directory: "/"
+    directories:
+      - "/2-better-base-images"
+      - "/3-custom-base-images/app1"
+      - "/3-custom-base-images/app2"
+      - "/4-layers"
+      - "/5-unexpected-files"
+      - "/6-more-secure-builds"
+      - "/7-multistage-more-secure-builds"
     schedule:
       interval: "monthly"
     ignore:
