@@ -36,4 +36,6 @@ docker run --name exercise2 --rm docker-deep-dive/ex2/original
 
 However, different types of dockerfile & image may prompt more complex versions (spoilers!)
 
-If you are running Podman or another docker equivalent, you might want to alias your `podman` command as `docker` and consider prefixing your docker image paths with `localhost/` when running or calling for history.
+## Running docker on a mac
+
+Due to licensing concerns with Docker Desktop (it's no longer for commercial use without a paid user account) it's worth looking into alternatives. [Rancher desktop](https://rancherdesktop.io/) can be installed using Kandji and will be kept up to date with Kandji controlled updates (where available). It is command-line heavy but we will be working with the docker cli for this course anyway.
